@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    background: yellow;
+    width: 100%;
+
+}
+.main{
+    border: 3px solid blueviolet;
+    padding-right: 16px;
+
+   
+}
+.mani{
+display: flex;
+
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 20px;
+
+
+    
+}
+.mani1{
+  display: grid;
+    margin: 20px;
+    justify-content: space-between;
+padding: 16PX;
+grid-template-columns:repeat(3,300px);
+grid-template-columns: repeat(auto-fit,minimax(240px,1fr));
+grid-gap: 20px;
+padding-right: 40px;
+
+    
+    
+
+    
+}
+.main7{
+    display: flex;
+   gap: 20px;
+
+}
+.main1,.main2,.main3,.main4,.main5,.main6{
+    box-shadow: 20px 20px 15px 7px green;
+    border: 5px solid yellowgreen;
+    border-radius: 30px;
+    border-block-color: maroon;
+    
+    
+}
+img{
+    
+}
+.main::after{
+    color: brown;
+}
+    
+

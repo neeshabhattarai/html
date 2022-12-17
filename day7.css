@@ -1,0 +1,21 @@
+*{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: aquamarine;
+
+}
+:root{
+    --a:50px;
+    --color:yellow;
+    
+
+}
+div{
+    font-size: var(--a);
+    height: var(--a);
+    color: var(--color);
+    display: block;
+    
+    
+}

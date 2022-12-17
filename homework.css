@@ -1,0 +1,29 @@
+.main{
+    background-color: #26e75b;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding: 20px 100px;
+    color:#1b3e37;
+    width: 400px;
+    margin: 20px auto;
+    text-shadow: 3px 3px 7px black;
+    
+}
+body{
+    border: 4px solid rgba(18, 34, 8, 0.538);
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 20px 20px 20px 3px rgb(22, 239, 156);
+    border-radius: 20px;
+}
+.main:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration-color: aqua;
+   
+}
+h1{
+    color: aliceblue;
+    

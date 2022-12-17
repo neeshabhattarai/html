@@ -1,0 +1,39 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 7rem;
+    row-gap: 5rem;
+    
+    
+   
+}
+.main1{
+    background-color: black;
+    
+    height:100px;
+      width:100px;
+    box-shadow: 2px 3px 5px 5px rgba(255, 255, 0, 0.385);
+}
+.main1:nth-child(odd){
+    background-color: hsl(146, 58%, 47%);
+    height: 400px;
+    width: 300px;
+
+}
+.main2{
+    display: flex;
+}
+.outsidediv{
+    background-color: black;
+    position: relative;
+    height: 40px;
+    width: 30px;
+}
+.insidediv{
+    border: 4px solid red;
+    z-index: -1;
+    position: absolute;
+    height: 40px;
+    width: 30px;
+}

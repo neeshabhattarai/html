@@ -1,0 +1,151 @@
+body{
+    border: 9px solid #49be25;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 100px 400px ;
+    box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.342);
+    
+
+    
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    height: 300px;
+    margin: 10px;
+    background-color: #49be25;
+   
+   
+   
+   
+}
+textarea{
+   width: 300px;
+   height: 150px;
+   padding: 10px;
+   border-radius: 15px;
+
+}
+
+div{
+    border: 4px solid rgba(0, 0, 0, 0.815);
+    border-radius: 10px 0px;
+    padding:  10px 10px;
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+}
+
+.a:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.b:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.c:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.d:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.e:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.f:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.g:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.h:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.j:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.k:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.l:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.m:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.n:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+.o:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+a:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.236);
+}
+
+
+.a:active{
+    background-color: blue;
+}
+.b:active{
+    background-color: blue;
+}
+.c:active{
+    background-color: blue;
+}
+.d:active{
+    background-color: blue;
+}
+.e:active{
+    background-color: blue;
+}
+.f:active{
+    background-color: blue;
+}
+.g:active{
+    background-color: blue;
+}
+.h:active{
+    background-color: blue;
+}
+.i:active{
+    background-color: blue;
+}
+.j:active{
+    background-color: blue;
+}
+.k:active{
+    background-color: blue;
+}
+.l:active{
+    background-color: blue;
+}
+.m:active{
+    background-color: blue;
+}
+.n:active{
+    background-color: blue;
+}.o:active{
+    background-color: blue;
+}
+
+.name{
+    font-size: 20px;
+    color: aqua;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: none;
+}
